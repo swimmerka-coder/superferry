@@ -23,14 +23,42 @@ header{
 }
 
 
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 700;
+    font-size: 75px;
+}
 
+.standart{
+    padding: 15px;
+}
 
+.choose_car{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name_car{
+    color: #200772;
+    text-transform: uppercase;
+}
+
+.error_img img{
+    margin-top: 20px;
+    max-height: 70px;
+    max-width: 70px;
+}
 
 header .content{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 
 
 .logo_text{
@@ -287,5 +315,8 @@ button:hover{
     
     .logo_text{
         display: none;
+    }
+    .choose_car{
+        display: block;
     }
 }
